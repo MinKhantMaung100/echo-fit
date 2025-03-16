@@ -1,0 +1,380 @@
+{
+    "shoes": [
+      {
+        "id": "nike-dunk-low-panda",
+        "name": "Nike Dunk Low 'Panda'",
+        "description": "The Nike Dunk Low 'Panda' features a clean black and white color scheme that's versatile and easy to style. With its classic silhouette and contrasting colors, it's become one of the most popular sneaker choices for everyday wear.",
+        "price": 110.00,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "primaryUse": ["Casual", "Streetwear"],
+        "smallImage": "/images/nike-dunk-low-panda-small.jpg",
+        "reviews": [
+          {
+            "userName": "SneakerHead22",
+            "title": "Clean and Classic",
+            "comment": "These go with everything in my wardrobe. Definitely a must-have for any collection.",
+            "image": "/reviews/nike-dunk-panda-review1.jpg"
+          },
+          {
+            "userName": "StyleQueen",
+            "title": "Worth the Hype",
+            "comment": "I see why everyone loves these. Super comfortable and the black/white combo is perfect.",
+            "image": null
+          }
+        ]
+      },
+      {
+        "id": "nike-dunk-low-grey",
+        "name": "Nike Dunk Low 'Grey'",
+        "description": "The Nike Dunk Low 'Grey' offers a subtle, monochromatic look that's perfect for minimalist style enthusiasts. With its premium materials and comfortable fit, it's ideal for daily wear.",
+        "price": 110.00,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "primaryUse": ["Casual", "Streetwear"],
+        "smallImage": "/images/nike-dunk-low-grey-small.jpg",
+        "reviews": [
+          {
+            "userName": "UrbanCommuter",
+            "title": "Perfect Everyday Shoe",
+            "comment": "The grey colorway is super versatile and doesn't show dirt like lighter colors.",
+            "image": "/reviews/nike-dunk-grey-review1.jpg"
+          }
+        ]
+      },
+      {
+        "id": "nike-dunk-low-indigo",
+        "name": "Nike Dunk Low 'Indigo'",
+        "description": "The Nike Dunk Low 'Indigo' features a rich blue tone that adds a pop of color to any outfit. The deep indigo shade offers versatility while making a statement.",
+        "price": 110.00,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "primaryUse": ["Casual", "Streetwear"],
+        "smallImage": "/images/nike-dunk-low-indigo-small.jpg",
+        "reviews": [
+          {
+            "userName": "BlueGang",
+            "title": "Beautiful Color",
+            "comment": "The indigo shade is even better in person. Definitely stands out without being too flashy.",
+            "image": null
+          }
+        ]
+      },
+      {
+        "id": "nike-dunk-low-valentine",
+        "name": "Nike Dunk Low 'Valentine'",
+        "description": "The Nike Dunk Low 'Valentine' edition celebrates the day of love with pink and red accents. Perfect for making a statement with a touch of romance.",
+        "price": 120.00,
+        "sizes": [5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10],
+        "primaryUse": ["Casual", "Streetwear", "Special Occasions"],
+        "smallImage": "/images/nike-dunk-low-valentine-small.jpg",
+        "reviews": [
+          {
+            "userName": "LoveSneakers",
+            "title": "Adorable Limited Edition",
+            "comment": "Got these for my girlfriend and she loves them. The pink details are super cute.",
+            "image": "/reviews/nike-dunk-valentine-review1.jpg"
+          }
+        ]
+      },
+      {
+        "id": "nike-dunk-low-ucla",
+        "name": "Nike Dunk Low 'UCLA'",
+        "description": "The Nike Dunk Low 'UCLA' showcases the university's signature blue and gold colors. Perfect for alumni, students, or anyone who appreciates the classic collegiate colorway.",
+        "price": 110.00,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "primaryUse": ["Casual", "Streetwear", "Game Day"],
+        "smallImage": "/images/nike-dunk-low-ucla-small.jpg",
+        "reviews": [
+          {
+            "userName": "BruinFan",
+            "title": "Perfect for Game Days",
+            "comment": "As a UCLA alum, I had to have these. Great quality and the colors are spot on.",
+            "image": "/reviews/nike-dunk-ucla-review1.jpg"
+          }
+        ]
+      },
+      {
+        "id": "adidas-samba-og-red",
+        "name": "Adidas Samba OG 'Red'",
+        "description": "The Adidas Samba OG in red brings a bold update to the classic silhouette. Featuring the signature T-toe design and gum sole, this heritage indoor soccer shoe has become a streetwear staple.",
+        "price": 100.00,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "primaryUse": ["Casual", "Streetwear", "Indoor Soccer"],
+        "smallImage": "/images/adidas-samba-og-red-small.jpg",
+        "reviews": [
+          {
+            "userName": "RetroKicks",
+            "title": "Timeless Design",
+            "comment": "The red colorway on the classic Samba design is fire. Definitely turns heads when I wear them.",
+            "image": null
+          }
+        ]
+      },
+      {
+        "id": "adidas-samba-og-blue",
+        "name": "Adidas Samba OG 'Blue'",
+        "description": "The Adidas Samba OG in blue offers a refreshing take on the iconic soccer-inspired sneaker. With its classic silhouette and comfortable design, it's perfect for everyday wear.",
+        "price": 100.00,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "primaryUse": ["Casual", "Streetwear", "Indoor Soccer"],
+        "smallImage": "/images/adidas-samba-og-blue-small.jpg",
+        "reviews": [
+          {
+            "userName": "SoccerFanatic",
+            "title": "Classic With a Twist",
+            "comment": "Love the blue version of the Sambas. They're comfortable right out of the box.",
+            "image": "/reviews/adidas-samba-blue-review1.jpg"
+          }
+        ]
+      },
+      {
+        "id": "adidas-samba-og-green",
+        "name": "Adidas Samba OG 'Green'",
+        "description": "The Adidas Samba OG 'Green' brings a fresh forest green color to the classic silhouette. Perfect for those looking to stand out with a unique yet versatile colorway.",
+        "price": 100.00,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "primaryUse": ["Casual", "Streetwear", "Indoor Soccer"],
+        "smallImage": "/images/adidas-samba-og-green-small.jpg",
+        "reviews": [
+          {
+            "userName": "VintageVibes",
+            "title": "Unique Color Option",
+            "comment": "The green is subtle but distinctive. These match with more outfits than you'd think.",
+            "image": null
+          }
+        ]
+      },
+      {
+        "id": "adidas-samba-og-grey",
+        "name": "Adidas Samba OG 'Grey'",
+        "description": "The Adidas Samba OG in grey offers a sleek, neutral take on the classic design. Perfect for minimalist style preferences while maintaining the iconic Samba look.",
+        "price": 100.00,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "primaryUse": ["Casual", "Streetwear", "Indoor Soccer"],
+        "smallImage": "/images/adidas-samba-og-grey-small.jpg",
+        "reviews": [
+          {
+            "userName": "MinimalFashion",
+            "title": "Versatile and Clean",
+            "comment": "These grey Sambas go with everything. Super versatile and the quality is top-notch.",
+            "image": "/reviews/adidas-samba-grey-review1.jpg"
+          }
+        ]
+      },
+      {
+        "id": "adidas-samba-og-purple",
+        "name": "Adidas Samba OG 'Purple'",
+        "description": "The Adidas Samba OG in purple brings a bold, eye-catching color to the classic silhouette. Perfect for those who want to make a statement with their footwear.",
+        "price": 100.00,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "primaryUse": ["Casual", "Streetwear", "Indoor Soccer"],
+        "smallImage": "/images/adidas-samba-og-purple-small.jpg",
+        "reviews": [
+          {
+            "userName": "PurplePower",
+            "title": "Vibrant and Unique",
+            "comment": "These purple Sambas always get compliments. Great way to add color to a simple outfit.",
+            "image": null
+          }
+        ]
+      },
+      {
+        "id": "nike-airmax-blue",
+        "name": "Nike Air Max 'Blue'",
+        "description": "The Nike Air Max in blue offers exceptional comfort with its visible Air cushioning. The sleek design and vibrant blue colorway make this a standout choice for both performance and style.",
+        "price": 160.00,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "primaryUse": ["Running", "Casual", "Streetwear"],
+        "smallImage": "/images/nike-airmax-blue-small.jpg",
+        "reviews": [
+          {
+            "userName": "RunnerDude",
+            "title": "Comfort and Style",
+            "comment": "Great cushioning and the blue colorway is perfect. My go-to shoes for daily walks.",
+            "image": "/reviews/nike-airmax-blue-review1.jpg"
+          }
+        ]
+      },
+      {
+        "id": "nike-airmax-pink",
+        "name": "Nike Air Max 'Pink'",
+        "description": "The Nike Air Max in pink offers a bold, vibrant look with all the comfort you'd expect from Air Max technology. Perfect for making a statement while enjoying premium cushioning.",
+        "price": 160.00,
+        "sizes": [5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10],
+        "primaryUse": ["Running", "Casual", "Streetwear"],
+        "smallImage": "/images/nike-airmax-pink-small.jpg",
+        "reviews": [
+          {
+            "userName": "FitnessFanatic",
+            "title": "Eye-catching and Comfortable",
+            "comment": "Love the bright pink color! These are so comfortable for my daily workouts.",
+            "image": null
+          }
+        ]
+      },
+      {
+        "id": "nike-airmax-brown",
+        "name": "Nike Air Max 'Brown'",
+        "description": "The Nike Air Max in brown offers an earthy, versatile colorway with all the benefits of Air Max cushioning. Perfect for those who prefer understated tones with premium performance.",
+        "price": 160.00,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "primaryUse": ["Running", "Casual", "Streetwear"],
+        "smallImage": "/images/nike-airmax-brown-small.jpg",
+        "reviews": [
+          {
+            "userName": "EarthTones",
+            "title": "Subtle Yet Stylish",
+            "comment": "The brown colorway is unique and doesn't show dirt. Perfect for everyday wear.",
+            "image": "/reviews/nike-airmax-brown-review1.jpg"
+          }
+        ]
+      },
+      {
+        "id": "vans-old-skool-black",
+        "name": "Vans Old Skool 'Black'",
+        "description": "The Vans Old Skool in classic black is a timeless skateboarding shoe that's become a cultural icon. Featuring the iconic side stripe and durable construction, it's perfect for skaters and style enthusiasts alike.",
+        "price": 70.00,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "primaryUse": ["Skateboarding", "Casual", "Streetwear"],
+        "smallImage": "/images/vans-old-skool-black-small.jpg",
+        "reviews": [
+          {
+            "userName": "SkaterBoy",
+            "title": "Classic for a Reason",
+            "comment": "Can't go wrong with black Old Skools. Durable, comfortable, and go with everything.",
+            "image": null
+          },
+          {
+            "userName": "VintageVibes",
+            "title": "Never Goes Out of Style",
+            "comment": "On my third pair of these. They're just perfect and last forever.",
+            "image": "/reviews/vans-old-skool-review1.jpg"
+          }
+        ]
+      },
+      {
+        "id": "adidas-stan-smith-green",
+        "name": "Adidas Stan Smith 'Green'",
+        "description": "The Adidas Stan Smith with the classic green heel tab is an iconic tennis shoe turned fashion staple. Clean white leather upper with the signature green accent creates a timeless look that's always in style.",
+        "price": 85.00,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "primaryUse": ["Casual", "Tennis", "Streetwear"],
+        "smallImage": "/images/adidas-stan-smith-green-small.jpg",
+        "reviews": [
+          {
+            "userName": "ClassicKicks",
+            "title": "Timeless Design",
+            "comment": "Clean, simple, and goes with everything. The green detail is perfect.",
+            "image": "/reviews/adidas-stan-smith-review1.jpg"
+          },
+          {
+            "userName": "MinimalistStyle",
+            "title": "Perfect White Sneaker",
+            "comment": "These are my go-to white sneakers. Clean design and comfortable enough for all-day wear.",
+            "image": null
+          }
+        ]
+      },
+      {
+        "id": "nike-air-force-1-white",
+        "name": "Nike Air Force 1 '07 'White'",
+        "description": "The Nike Air Force 1 '07 in white is an iconic sneaker known for its timeless design and cultural significance. With its clean look and comfortable construction, it's a wardrobe essential.",
+        "price": 100.00,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "primaryUse": ["Casual", "Streetwear", "Basketball"],
+        "smallImage": "/images/nike-air-force-1-white-small.jpg",
+        "reviews": [
+          {
+            "userName": "SneakerLegend",
+            "title": "The Ultimate Classic",
+            "comment": "Everyone needs a pair of white AF1s. They're comfortable, durable, and never go out of style.",
+            "image": "/reviews/nike-af1-white-review1.jpg"
+          },
+          {
+            "userName": "UrbanFashion",
+            "title": "Staple Piece",
+            "comment": "My third pair of these. They're essential to any sneaker collection.",
+            "image": null
+          }
+        ]
+      },
+      {
+        "id": "nike-air-force-1-black",
+        "name": "Nike Air Force 1 '07 'Black'",
+        "description": "The Nike Air Force 1 '07 in black offers the iconic silhouette in a sleek, versatile colorway. Perfect for those who want the classic AF1 look with a more understated approach.",
+        "price": 100.00,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "primaryUse": ["Casual", "Streetwear", "Basketball"],
+        "smallImage": "/images/nike-air-force-1-black-small.jpg",
+        "reviews": [
+          {
+            "userName": "AllBlackEverything",
+            "title": "Clean and Versatile",
+            "comment": "The black colorway is perfect for everyday wear. They don't show dirt and go with everything.",
+            "image": null
+          },
+          {
+            "userName": "StreetStyleKing",
+            "title": "Better Than the White Ones",
+            "comment": "I prefer these over the white AF1s. They have the same comfort but are much easier to keep clean.",
+            "image": "/reviews/nike-af1-black-review1.jpg"
+          }
+        ]
+      },
+      {
+        "id": "on-cloud-5-sand",
+        "name": "On Cloud 5 'Sand'",
+        "description": "The On Cloud 5 in sand offers exceptional lightweight comfort and Swiss-engineered performance. Perfect for running, working out, or everyday wear with its sleek design and neutral colorway.",
+        "price": 140.00,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "primaryUse": ["Running", "Casual", "Fitness"],
+        "smallImage": "/images/on-cloud-5-sand-small.jpg",
+        "reviews": [
+          {
+            "userName": "Marathon Runner",
+            "title": "Light as Air",
+            "comment": "These are incredibly lightweight and the sand color is beautiful and practical.",
+            "image": "/reviews/on-cloud-5-sand-review1.jpg"
+          }
+        ]
+      },
+      {
+        "id": "on-cloud-5-grey",
+        "name": "On Cloud 5 'Grey'",
+        "description": "The On Cloud 5 in grey delivers the perfect blend of performance and style. With its responsive cushioning and sleek profile, it's ideal for runners and active individuals who value both comfort and aesthetics.",
+        "price": 140.00,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "primaryUse": ["Running", "Casual", "Fitness"],
+        "smallImage": "/images/on-cloud-5-grey-small.jpg",
+        "reviews": [
+          {
+            "userName": "DailyRunner",
+            "title": "Perfect Running Shoes",
+            "comment": "These have great support while being incredibly light. The grey color is versatile and doesn't show dirt.",
+            "image": null
+          }
+        ]
+      },
+      {
+        "id": "on-cloud-5-black",
+        "name": "On Cloud 5 'Black'",
+        "description": "The On Cloud 5 in black combines sleek aesthetics with cutting-edge running technology. The all-black design makes it versatile for both athletic and casual settings while providing premium comfort and support.",
+        "price": 140.00,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "primaryUse": ["Running", "Casual", "Fitness"],
+        "smallImage": "/images/on-cloud-5-black-small.jpg",
+        "reviews": [
+          {
+            "userName": "FitnessFreak",
+            "title": "Stylish Performance Shoes",
+            "comment": "These look sleek enough for casual wear but perform amazingly for my runs and workouts.",
+            "image": "/reviews/on-cloud-5-black-review1.jpg"
+          },
+          {
+            "userName": "CityCommuter",
+            "title": "Perfect for All-Day Wear",
+            "comment": "I wear these for my commute and keep them on all day at work. Super comfortable and look professional enough.",
+            "image": null
+          }
+        ]
+      }
+    ]
+  }
