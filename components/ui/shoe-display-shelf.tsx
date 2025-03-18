@@ -37,7 +37,6 @@ const ShoeDisplayShelf = () => {
     import("@google/model-viewer");
 
     const modelViewer = modelViewerRef.current;
-    console.log(modelViewer);
 
     if (!modelViewer) return;
 
@@ -59,7 +58,7 @@ const ShoeDisplayShelf = () => {
   }, []);
 
   return (
-    <ModelViewer
+    <model-viewer
       src="glb/shoes-display-shelf.glb"
       ref={modelViewerRef}
       alt="3D Model"
@@ -86,28 +85,14 @@ const ShoeDisplayShelf = () => {
       rotation-per-second="0"
     >
       <AnimatePresence>
-        {progress >= 100 ? (
-          <>
-            <SelectShoeButtons />
-          </>
-        ) : (
-          <LoadingShelf progress={progress} />
-        )}
+        {progress < 100 ? <LoadingShelf progress={progress} /> : null}
+        {progress >= 100 ? <SelectShoeButtons /> : null}
       </AnimatePresence>
-    </ModelViewer>
+    </model-viewer>
   );
 };
 
 export default ShoeDisplayShelf;
-
-function ModelViewer(props: any) {
-  useEffect(() => {
-    // Dynamically import the web component on the client side
-    import("@google/model-viewer");
-  }, []);
-
-  return <model-viewer {...props} />;
-}
 
 function LoadingShelf({ progress }: LoadingShelfProps) {
   return (

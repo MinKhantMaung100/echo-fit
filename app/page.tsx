@@ -1,14 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import { Suspense, useEffect, useRef, useState } from "react";
+import { useRef } from "react";
 import Liner from "@/public/svg/liner.svg";
-import DisplayPoster from "@/public/webp/one.png";
 import HeroImage from "@/public/webp/hero-image.webp";
-import { AnimatePresence, motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
 import ShoeDisplayShelf from "@/components/ui/shoe-display-shelf";
-import { AnimatedLoadingSequence } from "@/components/ui/shoe-display-shelf";
 
 export default function Home() {
   const containerRef = useRef(null);

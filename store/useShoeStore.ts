@@ -38,12 +38,11 @@ const useShoeStore = create<ShoeStore>((set) => ({
   error: null,
   
   // Action
-  getShoes: () => {
+  getShoes: async() => {
     set({ isLoading: true });
     try {
-      // Load shoes from your JSON file
       set({ 
-        shoes: shoesData.shoes,
+        shoes: shoesData.data,
         isLoading: false 
       });
     } catch (error) {
