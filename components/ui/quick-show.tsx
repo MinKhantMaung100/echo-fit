@@ -76,9 +76,9 @@ const QuickShow = ({ shoeId, onClose }: QuickShowProps) => {
                   initial={{ opacity: 0.3 }}
                   whileHover={{
                     opacity: 1,
-                    y: 0,
+                    x: -10,
                     scale: 1.4,
-                    rotateX: 6,
+                    rotateX: 16,
                     rotateY: 6,
                     transition: {
                       type: "spring",

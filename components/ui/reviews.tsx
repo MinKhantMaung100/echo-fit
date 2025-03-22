@@ -98,7 +98,7 @@ const Reviews = ({ shoeName, reviews, onClose }: ReviewsProps) => {
             className="block relative"
             onClick={onClose}
           >
-            <Button className="w-full m-auto mb-1 py-6 rounded-none font-urbanist font-urbanist-italic-semibold text-lg hover:bg-transparent shadow-none bg-transparent">
+            <Button className="w-full m-auto mb-1 py-6 rounded-none font-urbanist font-urbanist-italic-semibold text-lg hover:bg-transparent shadow-none bg-transparent cursor-pointer">
               <motion.div
                 className="absolute bottom-0 left-0 w-full bg-my-primary origin-bottom"
                 initial={{ height: "100%" }}
@@ -113,7 +113,7 @@ const Reviews = ({ shoeName, reviews, onClose }: ReviewsProps) => {
                 }}
               />
               <motion.p
-                className="absolute inset-0 flex justify-center items-center text-xl font-semibold font-urbanist font-urbanist-italic-semibold capitalize"
+                className="absolute inset-0 flex justify-center items-center text-xl font-semibold font-urbanist font-urbanist-italic-semibold capitalize cursor-pointer"
                 variants={{
                   hover: {
                     y: 0,

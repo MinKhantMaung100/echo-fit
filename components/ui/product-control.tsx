@@ -12,9 +12,15 @@ type ProductControlProps = {
   shoeId?: string;
   onOpen: (control: ControlType) => void;
   style?: object;
+  selectedSize: number;
 };
 
-const ProductControl = ({ title, onOpen, style }: ProductControlProps) => {
+const ProductControl = ({
+  title,
+  onOpen,
+  style,
+  selectedSize,
+}: ProductControlProps) => {
   //   const [openControl, setOpenControl] = useState<ControlType>(null);
 
   const hoverAnimation = {
@@ -66,7 +72,15 @@ const ProductControl = ({ title, onOpen, style }: ProductControlProps) => {
           },
         }}
       >
-        {title}
+        {selectedSize > 0 ? (
+          <span className="flex flex-col text-left">
+            <label className="text-sm">Size</label>
+            <span className="text-2xl">{selectedSize}</span>
+            <span className="block w-4 h-4 absolute bg-my-primary -top-7"></span>
+          </span>
+        ) : (
+          title
+        )}
       </motion.p>
     </motion.button>
   );
